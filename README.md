@@ -38,6 +38,7 @@ Microservices main pillars are:
 	- It makes client avoid CORS
 	- It provides server side load balancing and routing
 	- One Example of such is Zuul
+	
 ==================================================================================================================
 Fiegn Client:
 	Fiegn client (Rest client) is another tool from netflix to enable service-to-service communication
