@@ -1,0 +1,9 @@
+FROM alpine-jdk:base
+MAINTAINER javaonfly
+RUN apk --no-cache add netcat-openbsd
+COPY files/search-employee-dashboard.jar /opt/lib/
+COPY search-employee-dashboard-entrypoint.sh /opt/bin/search-employee-dashboard-entrypoint.sh
+RUN chmod 755 /opt/bin/search-employee-dashboard-entrypoint.sh
+EXPOSE 8082
+
+

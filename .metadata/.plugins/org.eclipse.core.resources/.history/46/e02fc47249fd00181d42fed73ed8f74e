@@ -1,0 +1,5 @@
+package com.learning.docker.microservices.employeesearchservice.services;
+
+public class EmployeeSearchService {
+
+}

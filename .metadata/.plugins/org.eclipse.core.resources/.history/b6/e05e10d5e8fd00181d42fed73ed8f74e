@@ -1,0 +1,5 @@
+package com.learning.docker.microservices.searchemployeedashboard.controllers;
+
+public class FeignEmployeeInfoController {
+
+}

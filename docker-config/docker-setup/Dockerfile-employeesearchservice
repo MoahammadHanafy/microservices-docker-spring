@@ -1,0 +1,7 @@
+FROM alpine-jdk:base
+MAINTAINER javaonfly
+RUN apk --no-cache add netcat-openbsd
+COPY files/employee-search-service.jar /opt/lib/
+COPY employee-search-service-entrypoint.sh /opt/bin/employee-search-service-entrypoint.sh
+RUN chmod 755 /opt/bin/employee-search-service-entrypoint.sh
+EXPOSE 8081

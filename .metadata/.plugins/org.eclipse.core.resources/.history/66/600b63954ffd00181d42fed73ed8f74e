@@ -1,0 +1,5 @@
+package com.learning.docker.microservices.searchemployeedashboard.controller;
+
+public class EmployeeServiceProxy {
+
+}

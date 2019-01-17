@@ -1,0 +1,3 @@
+server.port=9090
+spring.cloud.config.server.git.uri=file://${HOME}/Work/Learning/microservices/spring-docker/centralProperties/test
+spring.profiles.active=native

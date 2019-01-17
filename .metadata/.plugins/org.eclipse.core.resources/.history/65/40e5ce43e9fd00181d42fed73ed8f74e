@@ -1,0 +1,5 @@
+package com.learning.docker.microservices.searchemployeedashboard.model;
+
+public class EmployeeInfo {
+
+}
